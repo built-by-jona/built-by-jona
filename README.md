@@ -88,6 +88,38 @@ Users can upload an Excel workbook, select worksheets and cleaning operations, p
 
 ---
 
+### 03 — PDF Invoice Renamer
+
+A Python application that reads invoice PDFs and automatically generates clear, standardized filenames using key invoice information.
+
+Users can upload one or multiple invoices, automatically extract the vendor, invoice number, and invoice date, and download renamed copies. The application also supports scanned and image-only invoices through OCR.
+
+**Key features**
+
+- Text-based PDF processing
+- OCR support for scanned invoices
+- Vendor, invoice number, and invoice date extraction
+- Standardized filename generation
+- Multiple invoice uploads
+- Input validation and safe error handling
+- Downloadable renamed PDF files
+- Streamlit web interface
+- Automated testing
+
+**Built with:** Python · pypdf · Tesseract OCR · pytesseract · PyMuPDF · Pillow · Streamlit · Pytest
+
+<p>
+  <a href="https://pdf-invoice-renamer.streamlit.app/">
+    <strong>🚀 Live Demo</strong>
+  </a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/built-by-jona/pdf-invoice-renamer">
+    <strong>View Repository →</strong>
+  </a>
+</p>
+
+---
+
 ## What I'm Building
 
 My projects focus on practical problems such as:
@@ -113,6 +145,14 @@ The goal is to make the **work less complicated**.
 **Excel Automation**
 
 `OpenPyXL` · `Microsoft Excel`
+
+**PDF & Document Processing**
+
+`pypdf` · `PyMuPDF` · `Pillow`
+
+**OCR**
+
+`Tesseract OCR` · `pytesseract`
 
 **Applications**
 
@@ -163,11 +203,12 @@ I'm building **Built by J.O.N.A. one project at a time**, starting with smaller 
 ### Completed
 
 **01** — Excel Price Calculator ✅  
-**02** — Excel Cleaner ✅
+**02** — Excel Cleaner ✅  
+**03** — PDF Invoice Renamer ✅
 
 ### Next
 
-**03** — Coming next...
+**04** — Coming next...
 
 ---
 

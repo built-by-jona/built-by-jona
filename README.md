@@ -120,12 +120,48 @@ Users can upload one or multiple invoices, automatically extract the vendor, inv
 
 ---
 
+### 04 — PDF Merger & Splitter
+
+A Python application that combines multiple PDF files into one document or extracts selected pages from an existing PDF.
+
+Users can upload multiple PDFs for merging, choose specific pages or page ranges for extraction, customize output filenames, and download the processed PDF directly from the application.
+
+**Key features**
+
+- Multiple PDF merging
+- PDF page extraction
+- Individual page selection
+- Page-range selection
+- Combined page and range selection
+- PDF page-count display
+- Custom output filenames
+- Automatic `.pdf` extension handling
+- Input validation and safe error handling
+- Downloadable processed PDF files
+- Streamlit web interface
+- Automated testing
+
+**Built with:** Python · pypdf · Streamlit · Pytest
+
+<p>
+  <a href="https://pdf-merger-splitter.streamlit.app/">
+    <strong>🚀 Live Demo</strong>
+  </a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/built-by-jona/pdf-merger-splitter">
+    <strong>View Repository →</strong>
+  </a>
+</p>
+
+---
+
 ## What I'm Building
 
 My projects focus on practical problems such as:
 
 - Excel and spreadsheet automation
 - Data cleaning and preparation
+- PDF and document processing
 - Repetitive business workflows
 - Small internal productivity tools
 - Simple interfaces for processes that would otherwise require manual work
@@ -190,9 +226,6 @@ Deployment
 Documentation
       ↓
 Retrospective
-```
-
-Each project is an opportunity to solve a practical problem while improving the development process for the next one.
 
 ---
 
@@ -204,11 +237,12 @@ I'm building **Built by J.O.N.A. one project at a time**, starting with smaller 
 
 **01** — Excel Price Calculator ✅  
 **02** — Excel Cleaner ✅  
-**03** — PDF Invoice Renamer ✅
+**03** — PDF Invoice Renamer ✅  
+**04** — PDF Merger & Splitter ✅
 
 ### Next
 
-**04** — Coming next...
+**05** — Coming next...
 
 ---
 

@@ -226,8 +226,7 @@ Deployment
 Documentation
       ↓
 Retrospective
-
----
+```
 
 Each project is an opportunity to solve a practical problem while improving the development process for the next one.
 

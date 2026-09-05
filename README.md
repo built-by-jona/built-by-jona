@@ -229,6 +229,10 @@ Retrospective
 
 ---
 
+Each project is an opportunity to solve a practical problem while improving the development process for the next one.
+
+---
+
 ## Current Journey
 
 I'm building **Built by J.O.N.A. one project at a time**, starting with smaller business automation problems and gradually progressing toward more capable tools and workflows.

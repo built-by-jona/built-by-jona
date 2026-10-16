@@ -1,3 +1,4 @@
+```html
 <p align="center">
   <img src="assets/banner.png" alt="Built by J.O.N.A." width="100%">
 </p>
@@ -8,6 +9,7 @@
   <strong>Just One Next Automation</strong><br>
   <em>Simple tools for complicated work.</em>
 </p>
+```
 
 ---
 
@@ -19,7 +21,7 @@ I'm building practical automation tools that simplify repetitive business tasks 
 
 > Find a real problem. Build one useful solution. Then move on to the next automation.
 
-My current focus is on **Python, Excel automation, data processing, Streamlit, and practical business tools**.
+My current focus is on **Python, Excel automation, data processing, PDF processing, Streamlit, Windows desktop applications, and practical business tools**.
 
 ---
 
@@ -43,6 +45,7 @@ Instead of manually calculating selling prices, sales totals, and profit across 
 
 **Built with:** Python · Pandas · OpenPyXL · Streamlit · Pytest
 
+```html
 <p>
   <a href="https://excel-price-calculator.streamlit.app/">
     <strong>🚀 Live Demo</strong>
@@ -52,6 +55,7 @@ Instead of manually calculating selling prices, sales totals, and profit across 
     <strong>View Repository →</strong>
   </a>
 </p>
+```
 
 ---
 
@@ -76,6 +80,7 @@ Users can upload an Excel workbook, select worksheets and cleaning operations, p
 
 **Built with:** Python · Pandas · OpenPyXL · Streamlit · Pytest
 
+```html
 <p>
   <a href="https://bbj-excel-cleaner.streamlit.app/">
     <strong>🚀 Live Demo</strong>
@@ -85,6 +90,7 @@ Users can upload an Excel workbook, select worksheets and cleaning operations, p
     <strong>View Repository →</strong>
   </a>
 </p>
+```
 
 ---
 
@@ -108,6 +114,7 @@ Users can upload one or multiple invoices, automatically extract the vendor, inv
 
 **Built with:** Python · pypdf · Tesseract OCR · pytesseract · PyMuPDF · Pillow · Streamlit · Pytest
 
+```html
 <p>
   <a href="https://pdf-invoice-renamer.streamlit.app/">
     <strong>🚀 Live Demo</strong>
@@ -117,6 +124,7 @@ Users can upload one or multiple invoices, automatically extract the vendor, inv
     <strong>View Repository →</strong>
   </a>
 </p>
+```
 
 ---
 
@@ -143,6 +151,7 @@ Users can upload multiple PDFs for merging, choose specific pages or page ranges
 
 **Built with:** Python · pypdf · Streamlit · Pytest
 
+```html
 <p>
   <a href="https://pdf-merger-splitter.streamlit.app/">
     <strong>🚀 Live Demo</strong>
@@ -152,6 +161,46 @@ Users can upload multiple PDFs for merging, choose specific pages or page ranges
     <strong>View Repository →</strong>
   </a>
 </p>
+```
+
+---
+
+### 05 — Excel to PDF Converter
+
+A Windows desktop application that converts Excel workbooks into PDF documents using Microsoft Excel's native rendering engine.
+
+Designed for business workflows involving Excel reports, catalogs, and large workbooks, the application preserves existing print settings and automatically corrects certain unbounded print areas to prevent unnecessary PDF pages.
+
+Users can select an Excel workbook, choose an output location, convert the file, and open the resulting PDF through a simple desktop interface.
+
+**Key features**
+
+- Excel-to-PDF conversion using Microsoft Excel
+- Support for `.xlsx`, `.xlsm`, and `.xls` files
+- Preservation of workbook print settings and page orientation
+- Automatic correction of eligible whole-column print areas
+- Multi-page and large-workbook processing
+- Background conversion to keep the application responsive
+- PDF validation and conversion summary
+- PDF and output-folder shortcuts
+- Input validation and error handling
+- Windows desktop interface
+- Standalone `.exe` packaging using PyInstaller
+- Automated testing
+
+**Built with:** Python · pywin32 · Microsoft Excel COM Automation · pypdf · Tkinter · PyInstaller · Pytest
+
+**Platform:** Windows with Microsoft Excel installed.
+
+**Status:** Working desktop application; cross-computer testing in progress.
+
+```html
+<p>
+  <a href="https://github.com/built-by-jona/excel-to-pdf-converter">
+    <strong>View Repository →</strong>
+  </a>
+</p>
+```
 
 ---
 
@@ -180,7 +229,7 @@ The goal is to make the **work less complicated**.
 
 **Excel Automation**
 
-`OpenPyXL` · `Microsoft Excel`
+`OpenPyXL` · `Microsoft Excel` · `pywin32` · `COM Automation`
 
 **PDF & Document Processing**
 
@@ -192,7 +241,11 @@ The goal is to make the **work less complicated**.
 
 **Applications**
 
-`Streamlit`
+`Streamlit` · `Tkinter`
+
+**Desktop Packaging**
+
+`PyInstaller`
 
 **Testing**
 
@@ -221,7 +274,7 @@ Automated Testing
       ↓
 User Interface
       ↓
-Deployment
+Deployment / Packaging
       ↓
 Documentation
       ↓
@@ -241,16 +294,19 @@ I'm building **Built by J.O.N.A. one project at a time**, starting with smaller 
 **01** — Excel Price Calculator ✅  
 **02** — Excel Cleaner ✅  
 **03** — PDF Invoice Renamer ✅  
-**04** — PDF Merger & Splitter ✅
+**04** — PDF Merger & Splitter ✅  
+**05** — Excel to PDF Converter ✅ *(Windows desktop application)*
 
 ### Next
 
-**05** — Coming next...
+**06** — Next automation to be selected.
 
 ---
 
+```html
 <p align="center">
   <strong>Built by J.O.N.A.</strong><br>
   <em>Just One Next Automation.</em><br><br>
   Simple tools for complicated work.
 </p>
+```

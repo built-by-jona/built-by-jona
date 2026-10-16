@@ -1,4 +1,3 @@
-```html
 <p align="center">
   <img src="assets/banner.png" alt="Built by J.O.N.A." width="100%">
 </p>
@@ -9,7 +8,6 @@
   <strong>Just One Next Automation</strong><br>
   <em>Simple tools for complicated work.</em>
 </p>
-```
 
 ---
 
@@ -45,7 +43,6 @@ Instead of manually calculating selling prices, sales totals, and profit across 
 
 **Built with:** Python · Pandas · OpenPyXL · Streamlit · Pytest
 
-```html
 <p>
   <a href="https://excel-price-calculator.streamlit.app/">
     <strong>🚀 Live Demo</strong>
@@ -55,7 +52,6 @@ Instead of manually calculating selling prices, sales totals, and profit across 
     <strong>View Repository →</strong>
   </a>
 </p>
-```
 
 ---
 
@@ -80,7 +76,6 @@ Users can upload an Excel workbook, select worksheets and cleaning operations, p
 
 **Built with:** Python · Pandas · OpenPyXL · Streamlit · Pytest
 
-```html
 <p>
   <a href="https://bbj-excel-cleaner.streamlit.app/">
     <strong>🚀 Live Demo</strong>
@@ -90,7 +85,6 @@ Users can upload an Excel workbook, select worksheets and cleaning operations, p
     <strong>View Repository →</strong>
   </a>
 </p>
-```
 
 ---
 
@@ -114,7 +108,6 @@ Users can upload one or multiple invoices, automatically extract the vendor, inv
 
 **Built with:** Python · pypdf · Tesseract OCR · pytesseract · PyMuPDF · Pillow · Streamlit · Pytest
 
-```html
 <p>
   <a href="https://pdf-invoice-renamer.streamlit.app/">
     <strong>🚀 Live Demo</strong>
@@ -124,7 +117,6 @@ Users can upload one or multiple invoices, automatically extract the vendor, inv
     <strong>View Repository →</strong>
   </a>
 </p>
-```
 
 ---
 
@@ -151,7 +143,6 @@ Users can upload multiple PDFs for merging, choose specific pages or page ranges
 
 **Built with:** Python · pypdf · Streamlit · Pytest
 
-```html
 <p>
   <a href="https://pdf-merger-splitter.streamlit.app/">
     <strong>🚀 Live Demo</strong>
@@ -161,7 +152,6 @@ Users can upload multiple PDFs for merging, choose specific pages or page ranges
     <strong>View Repository →</strong>
   </a>
 </p>
-```
 
 ---
 
@@ -194,13 +184,11 @@ Users can select an Excel workbook, choose an output location, convert the file,
 
 **Status:** Working desktop application; cross-computer testing in progress.
 
-```html
 <p>
   <a href="https://github.com/built-by-jona/excel-to-pdf-converter">
     <strong>View Repository →</strong>
   </a>
 </p>
-```
 
 ---
 
@@ -303,10 +291,9 @@ I'm building **Built by J.O.N.A. one project at a time**, starting with smaller 
 
 ---
 
-```html
 <p align="center">
   <strong>Built by J.O.N.A.</strong><br>
   <em>Just One Next Automation.</em><br><br>
   Simple tools for complicated work.
 </p>
-```
+
